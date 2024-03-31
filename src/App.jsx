@@ -5,17 +5,16 @@ import {
   useSensor,
   useSensors,
   pointerWithin,
-} from '@dnd-kit/core';
+} from "@dnd-kit/core";
 import {
   restrictToParentElement,
   restrictToWindowEdges,
-} from '@dnd-kit/modifiers';
+} from "@dnd-kit/modifiers";
 
-import './App.css';
-import BlocksPallete from './components/BlocksPallete.jsx';
-import CanvasArea from './components/CanvasArea.jsx';
+import BlocksPallete from "./components/BlocksPallete.jsx";
+import CanvasArea from "./components/CanvasArea.jsx";
 
-const restrictions = ref => {
+const restrictions = (ref) => {
   const { active } = ref;
 
   if (active?.data?.current?.alreadyOnCanvas) {
