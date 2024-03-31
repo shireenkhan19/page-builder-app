@@ -1,4 +1,4 @@
-![Final Project Screenshot](project-screenshot\screen-image.png "Final Project Screenshot")
+![Final Project Screenshot](project-screenshot/screen-image.png "Final Project Screenshot")
 
 # Page Builder App
 
